@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header nav{
+    width:100% ;
+    height: 200px;
+}
+.topHeader{
+    width: 100%;
+    height: 155px;
+    background-color: #55efc4;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.logo{
+margin-left: 285px;
+}
+.schoolName h3{
+    color: #d63031;
+    margin-left: 45px;
+    flex-basis: 800px;
+    padding-left: 15px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family:sans-serif;
+}
+.schoolName h3 span{
+    margin-left: 65px;
+}
+.schoolName h4 {
+    margin-left: 65px;
+}
+.schoolName h4 span{
+    margin-left: 30px;
+}
+.address h4{
+    font-size: 15px;
+}
+.icons{
+    margin-left: 280px;
+}
+.icons i{
+    margin-left: 8px;
+    color: rgb(250, 11, 11);
+}
+.address{
+    color: #EA580C;
+}
+
+/* navbar code */
+.menudropdown1{
+    width: 100%;
+}
+.menudropdown1 ul{
+    padding-bottom: 30px;
+}
+.menudropdown1 ul li{
+    float: left;
+    background-color: aquamarine;
+    color: white;
+    width: 192.5px;
+    height: 50px;
+    line-height: 50px;
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    opacity: 0.6px;
+}
+.menudropdown1 ul li a{
+    text-decoration: none; 
+}
+.menudropdown1 ul li ul li{
+    border-bottom: 1px solid white;
+}
+.menudropdown1 ul li ul{
+    display: none;
+    position: relative;
+     left: 0px;
+     top: -5px;
+     z-index: 2;
+}
+.menudropdown1 ul li:hover > ul{
+    display: block;
+}
+.menudropdown1 ul li:hover{
+    background-color: aqua;
+    border-bottom: 1px solid white;
+}
+/* Finished */
+
+.sliderImg{
+    width: 100%;
+    height: 550;
+}
+#demo{
+    margin-top: 0px;
+}
+/* recentNews */
+.recentNews{
+    width: 100%;
+    height: 100px;
+    background-color: cadetblue;
+}
+.recentNews h3{
+    font-size: 25px;
+    padding-left: 600px;
+    padding-top: 15px;
+    color: aliceblue;
+}
+marquee{
+    color: wheat;
+    background-color: cornflowerblue;
+}
+/* footer */
+.icon{
+    color: white;
+}
+.footer{
+    display: flex;
+}
+.footerIcon{
+    background-color: #EA580C;
+    width: 100%;
+    height: 70px;
+    padding-left: 580px;
+    padding-top: 18px;
+    
+}
+.footerIcon a i{
+    color: white;
+}
+.footerIcon a:hover{
+    cursor: pointer;
+}
+h6{
+    padding-top: 10px;
+}
+.contact p{
+    padding-top: 15px;
+}
+
+/* managmentSpeak */
+
+.managmentSpeak{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(72, 95, 45);
+    position: relative;
+}
+.managmentSpeak h4{
+    position: absolute;
+    top: 100px;
+    left: 550px;
+}
+.managmentPerson{
+    width: 900px;
+    height: 250px;
+    background-color: #55efc4;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+}
+.managmentPerson h5{
+    font-style: italic;
+    padding: 50px 100px;
+}
+.managmentSpeak h6{
+    font-size: 22px;
+    position: absolute;
+    top: 580px;
+    left: 450px;
+}
+.managmentPhoto{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(207, 89, 125);
+    position: absolute;
+    top: 430px;
+    left: 570px;
+    border-radius: 50%;
+}
