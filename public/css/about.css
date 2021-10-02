@@ -44,3 +44,25 @@
 .aboutMission ul li p{
     font-size: 22px;
 }
+
+/* Principal Desk */
+
+/* .principalImg{
+    display: block;
+    background-color: aqua;
+} */
+.principal div{
+    width: 1300px;
+    height: 400px;
+    padding-left: 25px
+    
+}
+.principal div p{
+    font-size: 22px;
+    padding-top: 18px;
+    text-align: justify;
+}
+.principal img{
+    padding-left: 450px;
+    padding-top: 15px;
+}

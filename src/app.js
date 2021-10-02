@@ -17,12 +17,24 @@ app.set("views",template_path);
 app.set("view engine","hbs");
 app.get("/",(req,res)=>{
     res.render("index");
-})
+}) 
+
+// About
+
 app.get("/about",(req,res)=>{
     res.render("about");
 })
 app.get("/aboutMission",(req,res)=>{
     res.render("aboutMission");
+})
+app.get("/pri",(req,res)=>{
+    res.render("pri");
+})
+
+// Admission
+
+app.get("/admssPro",(req,res)=>{
+    res.render("admssPro");
 })
 app.get("/",(req,res)=>{
     res.send("Hello from the abhaytechnical")
