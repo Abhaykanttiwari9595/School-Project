@@ -36,6 +36,17 @@ app.get("/pri",(req,res)=>{
 app.get("/admssPro",(req,res)=>{
     res.render("admssPro");
 })
+app.get("/feeChart",(req,res)=>{
+    res.render("feeChart");
+})
+app.get("/rulesRegu",(req,res)=>{
+    res.render("rulesRegu");
+})
+app.get("/skulTime",(req,res)=>{
+    res.render("skulTime");
+})
+
+
 app.get("/",(req,res)=>{
     res.send("Hello from the abhaytechnical")
 });
