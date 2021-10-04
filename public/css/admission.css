@@ -1,3 +1,71 @@
+/* Admission Procedure */
+
 h1{
-    color: blueviolet;
+    color: rgb(27, 26, 29);
 }
+.admssCriteria{
+    padding: 0 auto;
+    text-align: center;
+}
+h3{
+    padding-left: 25px;
+}
+.admssCriteriaPoint{
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+.admssCriteriaPoint p{
+    font-size: 22px;
+}
+
+/* Fees Chat */
+table{
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 35px;
+    border-collapse: collapse;
+    padding-bottom: 25px;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  h1{
+      padding-left: 550px;
+  }
+  .feeStructure p{
+      text-align:center;
+  }
+  tr:hover{
+      background-color: aqua;
+  }
+
+  /* Ruiles and Regulation */
+  .rulesRegulation{
+      padding-bottom: 15px;
+  }
+  .rulesRegulation ul{
+    padding-left: 25px;
+  }
+  .rulesRegulation ul li{
+    font-size: 22px;
+  }
+
+  /* School Timing */
+  .time h3{
+      line-height: 35px;
+  }
+  .time .visitorHours{
+      width: 80%;
+      padding-top: 40px;
+  }
+  .time .visitorHours p{
+      font-size: 20px;
+      padding-left: 50px;
+  }
+  .visitingDetail{
+      padding: 25px;
+  }
+  .visitingDetail
