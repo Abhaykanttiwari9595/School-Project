@@ -1,0 +1,23 @@
+
+.priPrimary p,.primary p,.middleSkul p,.secondary p,.srSecondary p{
+    font-size: 22px;
+    padding-left: 15px;
+    line-height: 35px;
+    padding-bottom: 10px;
+}
+.priPrimary h1,.primary h1,.middleSkul h1,.secondary h1,.srSecondary h1{
+    padding-left: 600px;
+}
+.priPrimary h2,.primary h2,.middleSkul h2,.secondary h2,.srSecondary h2{
+    padding: 20px 30px;
+    
+}
+.priPrimary ul,.primary ul,.middleSkul ul,.secondary ul,.srSecondary ul{
+    padding-left: 45px;
+}
+.priPrimary ul li,.primary ul li,.middleSkul ul li,.secondary ul li,.srSecondary ul li{
+    font-size: 22px;
+    padding-bottom: 15px;
+    line-height: 35px;
+}
+

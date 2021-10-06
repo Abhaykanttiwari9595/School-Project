@@ -45,6 +45,27 @@ app.get("/rulesRegu",(req,res)=>{
 app.get("/skulTime",(req,res)=>{
     res.render("skulTime");
 })
+app.get("/skulUniform",(req,res)=>{
+    res.render("skulUniform");
+})
+
+// Academics
+
+app.get("/priPrimary",(req,res)=>{
+    res.render("priPrimary");
+})
+app.get("/primary",(req,res)=>{
+    res.render("primary");
+})
+app.get("/middleSkul",(req,res)=>{
+    res.render("middleSkul");
+})
+app.get("/secondary",(req,res)=>{
+    res.render("secondary");
+})
+app.get("/srSecondary",(req,res)=>{
+    res.render("srSecondary");
+})
 
 
 app.get("/",(req,res)=>{

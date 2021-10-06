@@ -66,6 +66,21 @@ th, td {
       padding-left: 50px;
   }
   .visitingDetail{
-      padding: 25px;
+      padding:  20px 4px;
   }
-  .visitingDetail
+  .visitingDetail ul{
+      padding-left: 55px;
+  }
+  .visitingDetail ul li{
+      line-height: 35px;
+      font-size: 18px;
+  }
+  /* skulUniform */
+
+  .skulUniform{
+      padding: 25px 25px;
+  }
+  .skulUniform p{
+      font-size: 18px;
+      line-height: 35px;
+  }
